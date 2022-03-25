@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="sass/index.css" />
+    <title>Landing Page</title>
+  </head>
+  <body>
+    <main>
+      <nav
+        class="navbar sticky-top navbar-expand-lg navbar-light bg-white px-0 px-sm-5"
+      >
+        <div class="container-fluid">
+          <div class="navbar-brand me-lg-5 me-md-1">
+            <i class="bi bi-building"></i>PlatinumOffice
+          </div>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto">
+              <li class="nav-item">
+                <a href="index.html" class="nav-link me-3">Homepage</a>
+              </li>
+            </ul>
+            <a href="" class="nav-link text-dark pt-4 pt-lg-2">Sign In</a>
+            <a href="" class="nav-link text-dark">Register</a>
+          </div>
+        </div>
+      </nav>
+
+      <div class="container-fluid my-5 text-center">
+        <div class="row mx-0 mx-sm-5">
+          <h3 class="display-3">Get in touch.</h3>
+          <p class="lead">
+            We'd love to hear any feedback or queries from you.
+          </p>
+        </div>
+        <div class="row bg-light my-5 mx-0 mx-sm-5 px-1 py-3 p-sm-5 text-start">
+          <form action="">
+            <div class="mb-3">
+              <label for="email" class="form-label">*Email Address</label>
+              <input type="email" id="email" class="form-control" required />
+            </div>
+
+            <div class="mb-3">
+              <label for="name" class="form-label">*Name</label>
+              <input type="text" class="form-control" id="name" required />
+            </div>
+
+            <div class="mb-3">
+              <label for="type" class="form-label">*Type of query</label>
+              <select name="type" id="type" class="form-control" required>
+                <option value="select" selected disabled hidden>Select</option>
+                <option value="feedback">Feedback</option>
+                <option value="troubleshoot">Troubleshoot</option>
+                <option value="support">Support</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+
+            <div class="mb-3">
+              <label for="query" class="form-label">*Query</label>
+              <textarea class="form-control" id="query" required></textarea>
+            </div>
+
+            <button class="btn btn-primary text-light" type="submit">
+              <i class="bi bi-send"></i>
+              Send
+            </button>
+          </form>
+        </div>
+      </div>
+    </main>
+  </body>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"
+  ></script>
+</html>
