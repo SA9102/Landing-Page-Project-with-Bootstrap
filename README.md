@@ -8,4 +8,4 @@ Prior to building it, I was not very confident in using the Bootstrap framework,
 so I made this webpage in order that I become more comfortable with the basics of Bootstrap 5, in particular the Bootstrap Grid,
 as well as basic components such as buttons, cards and navbars.
 
-I also designed the page to look good on devices of varying sizes (using Bootstrap).
+I also designed the page to be responsive on devices of varying sizes (using Bootstrap).
